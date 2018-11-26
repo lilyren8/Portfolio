@@ -50,13 +50,18 @@ class App extends React.Component {
                             <a
                               style={{ paddingLeft: 10 }}
                               href="https://www.linkedin.com/in/lily-ren/"
+                              target="_blank"
                             >
                               <i
                                 className="fa fa-linkedin-square"
                                 style={{ color: "white", fontSize: 25 }}
                               />
                             </a>
-                            <a style={{ paddingLeft: 10 }} href="https://github.com/lilyren8">
+                            <a
+                              style={{ paddingLeft: 10 }}
+                              href="https://github.com/lilyren8"
+                              target="_blank"
+                            >
                               <i
                                 className="fa fa-github"
                                 style={{ color: "white", fontSize: 25 }}
