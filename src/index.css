@@ -40,3 +40,12 @@
     padding-right: 25%;
     text-align: center;
 }
+
+/* change the color of arrows in slides show */
+.slick-next::before{
+    color: black
+}
+
+.slick-prev::before{
+    color: black
+}

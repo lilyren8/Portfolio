@@ -76,7 +76,7 @@ export default class iClinic extends React.Component {
 
         {/* mobile interface design */}
         <div className="sectionTitle">
-          <img className="sectionIcon" src={require("../assets/mobile.webp")} />
+          <img className="sectionIcon" alt="mobile" src={require("../assets/mobile.webp")} />
           MOBILE INTERFACE DESIGN
         </div>
 
@@ -126,7 +126,7 @@ export default class iClinic extends React.Component {
 
         {/* watch interface design */}
         <div className="sectionTitle">
-          <img className="sectionIcon" src={require("../assets/watch.webp")} />
+          <img className="sectionIcon" alt="watch" src={require("../assets/watch.webp")} />
           WATCH INTERFACE DESIGN
         </div>
 

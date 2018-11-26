@@ -80,13 +80,12 @@ class App extends React.Component {
                     </header>
                   )}
                 </Sticky>
-
-                <ChatWindow />
               </Layout>
             </div>
 
             {/* main content */}
             <Content>
+              <ChatWindow />
               <Route path="/" exact component={Home} />
               <Route path="/resume/" component={Resume} />
               <Route path="/contact/" component={Contact} />
