@@ -1,7 +1,7 @@
-.pageContainer {
+ .pageContainer {
     width: 70%;
-    padding-left: 15%;
-    padding-right: 15%;
+    margin: auto;
+    /* background-color: aqua */
 }
 
 .projectTitle {
@@ -39,7 +39,7 @@
     padding-left: 25%;
     padding-right: 25%;
     text-align: center;
-}
+} 
 
 /* change the color of arrows in slides show */
 .slick-next::before{

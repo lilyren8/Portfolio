@@ -17,6 +17,7 @@ import ChatWindow from "./components/chatWindow"
 import { Layout, Header, Navigation, Content } from "react-mdl"
 import { StickyContainer, Sticky } from "react-sticky"
 import Responsive from "react-responsive"
+import Sidebar from "react-sidebar"
 
 const Mobile = props => <Responsive {...props} maxWidth={767} />
 const Default = props => <Responsive {...props} minWidth={768} />
