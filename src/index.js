@@ -18,6 +18,7 @@ import { Layout, Header, Navigation, Content } from "react-mdl"
 import { StickyContainer, Sticky } from "react-sticky"
 import Responsive from "react-responsive"
 import Sidebar from "react-sidebar"
+import { Navbar, Nav, NavItem } from "react-bootstrap"
 
 const Mobile = props => <Responsive {...props} maxWidth={767} />
 const Default = props => <Responsive {...props} minWidth={768} />
@@ -147,6 +148,32 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        {/* <Navbar inverse collapseOnSelect>
+          <Navbar.Header>
+            <Navbar.Brand>
+              <a href="#brand">React-Bootstrap</a>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+          </Navbar.Header>
+          <Navbar.Collapse>
+            <Nav>
+              <NavItem eventKey={1} href="#">
+                Link
+              </NavItem>
+              <NavItem eventKey={2} href="#">
+                Link
+              </NavItem>
+            </Nav>
+            <Nav pullRight>
+              <NavItem eventKey={1} href="#">
+                Link Right
+              </NavItem>
+              <NavItem eventKey={2} href="#">
+                Link Right
+              </NavItem>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar> */}
         <Mobile>{this.mobileContent()}</Mobile>
         <Default>{this.defaultContent()}</Default>
       </div>
