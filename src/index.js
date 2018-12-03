@@ -103,20 +103,49 @@ class App extends React.Component {
           <Sticky>
             {({ style }) => (
               <header style={style}>
-                <div
-                  style={{
-                    height: "40px",
-                    backgroundColor: "#4153AF",
-                    paddingTop: 10,
-                    paddingLeft: 10
-                  }}
-                >
-                  <i className="fa fa-bars" style={{ color: "white", fontSize: 25 }} />
-                  <span style={{ paddingRight: 10 }}>Lily Ren</span>
-                  <a href="https://www.linkedin.com/in/lily-ren/">
-                    <i className="fa fa-linkedin-square" style={{ color: "white", fontSize: 25 }} />
-                  </a>
-                </div>
+                <Navbar inverse collapseOnSelect>
+                  <Navbar.Header>
+                    <Navbar.Brand>
+                      <a href="/">Lily Ren</a>
+                    </Navbar.Brand>
+                    <Navbar.Toggle />
+                  </Navbar.Header>
+                  <Navbar.Collapse>
+                    <Nav pullRight>
+                      <NavItem eventKey={1} href="/">
+                        Home
+                      </NavItem>
+                      <NavItem eventKey={2} href="/resume">
+                        Resume
+                      </NavItem>
+                      <NavItem eventKey={3} href="/contact">
+                        Contact
+                      </NavItem>
+                      <NavItem eventKey={4} href="/chatbot">
+                        Chatbot
+                      </NavItem>
+                      <NavItem
+                        eventKey={5}
+                        href="https://www.linkedin.com/in/lily-ren/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i
+                          className="fa fa-linkedin-square"
+                          style={{ color: "white", fontSize: 25 }}
+                        />
+                      </NavItem>
+                      <NavItem
+                        eventKey={6}
+                        href="https://github.com/lilyren8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i className="fa fa-github" style={{ color: "white", fontSize: 25 }} />
+                      </NavItem>
+                    </Nav>
+                  </Navbar.Collapse>
+                </Navbar>
               </header>
             )}
           </Sticky>
