@@ -3,6 +3,7 @@
 ## Portfolio (Work in Progress)
 
 This is my person website that showcases my previous design work.
+(Check out my current portfolio at www.lilyren.ca)
 
 ### What's in it
 
@@ -10,6 +11,11 @@ This is my person website that showcases my previous design work.
 - Web Design: JHI
 - CarPlay: Green P
 - Tablet/IoT: Infroum Room Booking
+
+### What's new
+
 - Personal chatbot
+- Responsive design
+
 
 
